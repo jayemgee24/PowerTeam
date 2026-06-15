@@ -1,0 +1,153 @@
+/*css style sheet */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #222; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+article.underline{border-top:1px solid #000;border-bottom:1px solid #222;}
+.vertical,.horizontal{ margin-bottom:10px;}
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*img[width],img[height]{width:auto;height:auto;} wordpress hack to reset the attributes (while making responsive) */
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#0d0d0d;
+}
+a{ color:#ff6867;}
+a:active{ color:#80bfff;}
+/* headings */
+h1, h2, h3, h4, h5, h6{
+	font-weight:bold;
+	color:#FFFFFF;
+}
+h1,h2{line-height:24px;}
+h1{
+	font-size: 24px;
+	margin:0 0 .2em 0;
+}
+h2{
+	font-size: 18px;
+	margin:0 0 .3em 0;
+}
+h3{
+	font-size: 16px;
+	margin:0 0 .4em 0;
+}
+h4{
+	font-size: 14px;
+}
+h5, h6{
+	font-size: 12px;
+}
+h4, h5, h6{
+	margin:0 0 .6em 0;	
+}
+/* paragraph */
+p{
+	line-height:26px;
+	margin:0 0 16px 0;
+}
+q{
+	display:inline;
+}
+q:before {
+content: open-quote;
+}
+q:after {
+content: close-quote;
+}
+/* HTMl lists */
+ul,ol,dl{
+	display: block;
+	margin:1em 0 1em 0;
+}
+ul, ol{
+	padding-left: 40px;	
+}
+ul{
+	list-style-type: disc;
+}
+ol{
+	list-style-type: decimal;
+}
+dt, dd{
+	display: block;	
+	margin:0 0 0.5em 0;
+}
+dt{
+	font-weight: bold;
+}
+dd {
+	margin-left: 2em;
+}
+/* -- header -- */
+header{
+	background:#161616;
+	border-bottom:1px solid #1d1d1d;
+}
+header .vertical{
+	margin-bottom:0;
+}
+.logo{
+	padding:10px;
+	margin:10px 0;
+	color:#FFFFFF;
+}
+.logo a,
+.logo img{
+	display:block;
+}
+footer{
+	background:#000000;
+	color:#FFFFFF;
+}
+footer p{	
+	font-size:12px;
+	line-height:18px;
+	margin:0;
+}
+/* -- menu -- */
+.menu{
+}
+.menu a{
+	background:#CC6600;
+	border-bottom:1px solid #0d0d0d;
+	border-top:1px solid #3d3d3d;
+	display:block;
+	padding:15px;
+	color:#EEEEEE;
+	font-size:14px;
+}
+.menu a:hover{
+	background:#FF9900;
+}
+header .menu{
+	border-bottom:1px solid #2d2d2d;
+}
+header .menu a{
+	padding:15px 15px 15px 25px;
+}
+header .menu li:last-child a{
+	border-bottom:none;
+}
+.copy{
+	padding:10px;
+}
+.copy a{
+	color:rgba(154, 228, 255,0.8);
+}
